@@ -1,0 +1,7 @@
+Main shock: 1999-08-17 00:01:39.130000+00:00, M7.6
+Total aftershocks: 348
+Days analyzed: 93
+k = 5.262
+c = -1.000
+p = 0.141
+R² = 0.694

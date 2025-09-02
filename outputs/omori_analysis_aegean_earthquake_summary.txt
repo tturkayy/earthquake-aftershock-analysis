@@ -1,0 +1,7 @@
+Main shock: 2020-10-30 11:51:27.348000+00:00, M7.0
+Total aftershocks: 78
+Days analyzed: 45
+k = 2.313
+c = -1.000
+p = 0.121
+R² = 0.710

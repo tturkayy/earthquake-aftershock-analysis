@@ -1,0 +1,7 @@
+Main shock: 2011-10-23 10:41:23.250000+00:00, M7.1
+Total aftershocks: 183
+Days analyzed: 51
+k = 14.805
+c = -0.898
+p = 0.620
+R² = 0.984
