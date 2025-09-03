@@ -4,12 +4,9 @@ Python application for analyzing earthquake aftershocks using Omori's Law and re
 
 ## Table of Contents
 - [Features](#features)
-- [Installation](#installation) 
 - [Usage](#usage)
 - [Data Format](#data-format)
-- [Examples](#examples)
 - [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -40,13 +37,42 @@ The source code supports any 5-month earthquake catalog .csv file provided by th
 
 ## Data Format
 
-## Examples
+The application requires earthquake data in CSV format with the following columns:
+
+- time: Timestamp of the earthquake (ISO 8601 format: YYYY-MM-DDTHH:MM:SS.sssZ)
+- latitude: Geographic latitude in decimal degrees.
+- longitude: Geographic longitude in decimal degrees
+- depth: Depth of the earthquake in kilometers
+- mag: Magnitude of the earthquake
+- place: Description of the earthquake location
+
+For example first line of aegean_earthquake.csv file:
+- time: 2020-10-30T09:20:36.917Z,
+- latitude: 34.4019,
+- longitude: 26.4286,
+- depth: 10,
+- mag: 4.6,
+- place: "89 km S of Palekastro, Greece",
+
+Other data such as data source, data status, etc. are available between the lines, but the data types given above are the most important ones.    
 
 ## Results
+## Results
 
-## Installation
+### 2023 Kahramanmaraş Earthquake (M7.8)
+![Kahramanmaraş Earthquake Analysis](docs/omori_analysis_kahramanmaras_earthquake_results.png)
 
-## Contributing
+### 1999 Gölcük Earthquake (M7.6)
+![Gölcük Earthquake Analysis](docs/omori_analysis_golcuk_earthquake_results.png)
+
+### 2011 Tōhoku Earthquake (M9.1)
+![Tōhoku Earthquake Analysis](docs/omori_analysis_tohoku_earthquake_results.png)
+
+### 2011 Van Earthquake (M7.1)
+![Van Earthquake Analysis](docs/omori_analysis_van_earthquake_results.png)
+
+### 2020 Aegean Earthquake (M7.0)
+![Aegean Earthquake Analysis](docs/omori_analysis_aegean_earthquake_results.png)
 
 ### Prerequisites
 - Python 3.9+, 3.11 suggested.
