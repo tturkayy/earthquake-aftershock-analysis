@@ -57,7 +57,6 @@ For example first line of aegean_earthquake.csv file:
 Other data such as data source, data status, etc. are available between the lines, but the data types given above are the most important ones.    
 
 ## Results
-## Results
 
 ### 2023 Kahramanmaraş Earthquake (M7.8)
 ![Kahramanmaraş Earthquake Analysis](docs/omori_analysis_kahramanmaras_earthquake_results.png)
