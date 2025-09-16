@@ -8,7 +8,9 @@ Python application for analyzing earthquake aftershocks using Omori's Law and re
 - [Data Format](#data-format)
 - [Results](#results)
 - [License](#license)
+- [More Details](#more-details)
 
+  
 ## Features
 - Comparison of actual earthquake data with scientific data.
 - Omori's Law parameter fitting.
@@ -86,3 +88,6 @@ pip install -r requirements.txt
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## More Details
+For more details, you can check out [my article about this project on Medium](https://turkayyildirim.medium.com/earthquake-aftershock-analysis-with-python-omoris-law-application-8227d6407e89).
